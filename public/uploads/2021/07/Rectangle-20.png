@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<script> var theplus_ajax_url = "https://vbank.ng/vbank-staging/wp-admin/admin-ajax.php";</script><meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - VBank</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - VBank" />
+	<meta property="og:site_name" content="VBank" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://vbank.ng/#organization","name":"VBank","url":"https://vbank.ng/","sameAs":["https://web.facebook.com/vbankng","https://www.instagram.com/vbankng","https://www.linkedin.com/company/vbankng","https://www.youtube.com/channel/UCxidaNYQD0rUPjVYo2tOkag","https://twitter.com/vbankng"],"logo":{"@type":"ImageObject","@id":"https://vbank.ng/#logo","inLanguage":"en-US","url":"https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/VBANK-TRANSPARENT-02.png","contentUrl":"https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/VBANK-TRANSPARENT-02.png","width":604,"height":510,"caption":"VBank"},"image":{"@id":"https://vbank.ng/#logo"}},{"@type":"WebSite","@id":"https://vbank.ng/#website","url":"https://vbank.ng/","name":"VBank","description":"Digital Banking Revolution","publisher":{"@id":"https://vbank.ng/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://vbank.ng/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="VBank &raquo; Feed" href="https://vbank.ng/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VBank &raquo; Comments Feed" href="https://vbank.ng/comments/feed/" />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v6.7.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-188442514-1"  type="text/javascript" data-cfasync="false"></script>
+			<script type="text/javascript" data-cfasync="false">
+				var em_version = '6.7.0';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-188442514-1';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( em_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dNDMyYj' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-188442514-1', {
+						forceSSL:true,link_attribution:true,page_path:'/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+				<!-- This site uses the Google Analytics by MonsterInsights plugin v7.17.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-152887628-4"  type="text/javascript" data-cfasync="false"></script>
+			<script type="text/javascript" data-cfasync="false">
+				var mi_version = '7.17.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-152887628-4';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( mi_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-152887628-4', {
+						forceSSL:true,link_attribution:true,page_path:'/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof (
+											arguments[1].hitType
+										) ) {
+											hitObject = arguments[1];
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var gaKey, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+									};
+									for ( gaKey in gaMap ) {
+										if ( 'undefined' !== typeof args[gaKey] ) {
+											hit[gaMap[gaKey]] = args[gaKey];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/vbank.ng\/vbank-staging\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dce-animations-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/dynamic-content-for-elementor/assets/css/animations.css?ver=1.15.3' media='all' />
+<link rel='stylesheet' id='astra-theme-css-css'  href='https://vbank.ng/vbank-staging/wp-content/themes/astra/assets/css/minified/style.min.css?ver=3.5.0' media='all' />
+<style id='astra-theme-css-inline-css'>
+html{font-size:93.75%;}a,.page-title{color:#0170B9;}a:hover,a:focus{color:#3a3a3a;}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-weight:inherit;font-size:15px;font-size:1rem;}blockquote{color:#000000;}.site-title{font-size:35px;font-size:2.3333333333333rem;display:block;}.ast-archive-description .ast-archive-title{font-size:40px;font-size:2.6666666666667rem;}.site-header .site-description{font-size:15px;font-size:1rem;display:none;}.entry-title{font-size:30px;font-size:2rem;}h1,.entry-content h1{font-size:40px;font-size:2.6666666666667rem;}h2,.entry-content h2{font-size:30px;font-size:2rem;}h3,.entry-content h3{font-size:25px;font-size:1.6666666666667rem;}h4,.entry-content h4{font-size:20px;font-size:1.3333333333333rem;}h5,.entry-content h5{font-size:18px;font-size:1.2rem;}h6,.entry-content h6{font-size:15px;font-size:1rem;}.ast-single-post .entry-title,.page-title{font-size:30px;font-size:2rem;}::selection{background-color:#0170B9;color:#ffffff;}body,h1,.entry-title a,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content h4,h5,.entry-content h5,h6,.entry-content h6{color:#3a3a3a;}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#ffffff;border-color:#0170B9;background-color:#0170B9;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#0170B9;}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:#0170B9;background-color:#0170B9;box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:#0170B9;border-color:#0170B9;}.single .nav-links .nav-previous,.single .nav-links .nav-next{color:#0170B9;}.entry-meta,.entry-meta *{line-height:1.45;color:#0170B9;}.entry-meta a:hover,.entry-meta a:hover *,.entry-meta a:focus,.entry-meta a:focus *,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#3a3a3a;}.widget-title{font-size:21px;font-size:1.4rem;color:#3a3a3a;}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#0170B9;}.secondary .calendar_wrap #today,.ast-progress-val span{background:#0170B9;}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:#0170B9;border-color:#0170B9;}.calendar_wrap #today > a{color:#ffffff;}.page-links .page-link,.single .post-navigation a{color:#0170B9;}.main-header-menu .menu-link,.ast-header-custom-item a{color:#3a3a3a;}.main-header-menu .menu-item:hover > .menu-link,.main-header-menu .menu-item:hover > .ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu .menu-item.focus > .menu-link,.main-header-menu .menu-item.focus > .ast-menu-toggle,.main-header-menu .current-menu-item > .menu-link,.main-header-menu .current-menu-ancestor > .menu-link,.main-header-menu .current-menu-item > .ast-menu-toggle,.main-header-menu .current-menu-ancestor > .ast-menu-toggle{color:#0170B9;}.header-main-layout-3 .ast-main-header-bar-alignment{margin-right:auto;}.header-main-layout-2 .site-header-section-left .ast-site-identity{text-align:left;}.ast-logo-title-inline .site-logo-img{padding-right:1em;}.site-logo-img img{ transition:all 0.2s linear;}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:#0170B9;}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid #0170B9;color:#0170B9;}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:#0170B9;}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-color:#7a7a7a;}.wp-block-buttons.aligncenter{justify-content:center;}@media (min-width:1200px){.ast-separate-container.ast-right-sidebar .entry-content .wp-block-image.alignfull,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-image.alignfull,.ast-separate-container.ast-right-sidebar .entry-content .wp-block-cover.alignfull,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-cover.alignfull{margin-left:-6.67em;margin-right:-6.67em;max-width:unset;width:unset;}.ast-separate-container.ast-right-sidebar .entry-content .wp-block-image.alignwide,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-image.alignwide,.ast-separate-container.ast-right-sidebar .entry-content .wp-block-cover.alignwide,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-cover.alignwide{margin-left:-20px;margin-right:-20px;max-width:unset;width:unset;}}@media (min-width:1200px){.wp-block-group .has-background{padding:20px;}}@media (min-width:1200px){.ast-no-sidebar.ast-separate-container .entry-content .wp-block-group.alignwide,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-cover.alignwide{margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px;}.ast-no-sidebar.ast-separate-container .entry-content .wp-block-cover.alignfull,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-group.alignfull{margin-left:-6.67em;margin-right:-6.67em;padding-left:6.67em;padding-right:6.67em;}}@media (min-width:1200px){.wp-block-cover-image.alignwide .wp-block-cover__inner-container,.wp-block-cover.alignwide .wp-block-cover__inner-container,.wp-block-cover-image.alignfull .wp-block-cover__inner-container,.wp-block-cover.alignfull .wp-block-cover__inner-container{width:100%;}}@media (max-width:921px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single{padding:1.5em 2.14em;}.ast-separate-container #primary,.ast-separate-container #secondary{padding:1.5em 0;}#primary,#secondary{padding:1.5em 0;margin:0;}.ast-left-sidebar #content > .ast-container{display:flex;flex-direction:column-reverse;width:100%;}.ast-author-box img.avatar{margin:20px 0 0 0;}}@media (min-width:922px){.ast-separate-container.ast-right-sidebar #primary,.ast-separate-container.ast-left-sidebar #primary{border:0;}.search-no-results.ast-separate-container #primary{margin-bottom:4em;}}.ast-404-layout-1 .ast-404-text{font-size:200px;font-size:13.333333333333rem;}@media (min-width:922px){.error404.ast-separate-container #primary{margin-bottom:4em;}}@media (max-width:920px){.ast-404-layout-1 .ast-404-text{font-size:100px;font-size:6.6666666666667rem;}}.elementor-button-wrapper .elementor-button{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;}body .elementor-button.elementor-size-sm,body .elementor-button.elementor-size-xs,body .elementor-button.elementor-size-md,body .elementor-button.elementor-size-lg,body .elementor-button.elementor-size-xl,body .elementor-button{border-radius:25px;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;}.elementor-button-wrapper .elementor-button{border-color:#0170B9;background-color:#0170B9;}.elementor-button-wrapper .elementor-button:hover,.elementor-button-wrapper .elementor-button:focus{color:#ffffff;background-color:#3a3a3a;border-color:#3a3a3a;}.wp-block-button .wp-block-button__link,.elementor-button-wrapper .elementor-button,.elementor-button-wrapper .elementor-button:visited{color:#ffffff;}.elementor-button-wrapper .elementor-button{font-family:inherit;font-weight:600;line-height:1;}.wp-block-button .wp-block-button__link:hover,.wp-block-button .wp-block-button__link:focus{color:#ffffff;background-color:#3a3a3a;border-color:#3a3a3a;}.wp-block-button .wp-block-button__link{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;border-color:#0170B9;background-color:#0170B9;color:#ffffff;font-family:inherit;font-weight:600;line-height:1;border-radius:25px;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;}.menu-toggle,button,.ast-button,.ast-custom-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;color:#ffffff;border-color:#0170B9;background-color:#0170B9;border-radius:25px;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;font-family:inherit;font-weight:600;line-height:1;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.ast-custom-button:hover .button:hover,.ast-custom-button:hover ,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#ffffff;background-color:#3a3a3a;border-color:#3a3a3a;}@media (min-width:544px){.ast-container{max-width:100%;}}@media (max-width:544px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single,.ast-separate-container .comments-title,.ast-separate-container .ast-archive-description{padding:1.5em 1em;}.ast-separate-container #content .ast-container{padding-left:0.54em;padding-right:0.54em;}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 1em;margin-bottom:1.5em;}.ast-separate-container .ast-comment-list .bypostauthor{padding:.5em;}.ast-search-menu-icon.ast-dropdown-active .search-field{width:170px;}}@media (max-width:921px){.ast-mobile-header-stack .main-header-bar .ast-search-menu-icon{display:inline-block;}.ast-header-break-point.ast-header-custom-item-outside .ast-mobile-header-stack .main-header-bar .ast-search-icon{margin:0;}.ast-comment-avatar-wrap img{max-width:2.5em;}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 2.14em;}.ast-separate-container .comment-respond{padding:2em 2.14em;}.ast-comment-meta{padding:0 1.8888em 1.3333em;}}@media (max-width:921px){.site-title{display:block;}.ast-archive-description .ast-archive-title{font-size:40px;}.site-header .site-description{display:none;}.entry-title{font-size:30px;}h1,.entry-content h1{font-size:30px;}h2,.entry-content h2{font-size:25px;}h3,.entry-content h3{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:544px){.site-title{display:block;}.ast-archive-description .ast-archive-title{font-size:40px;}.site-header .site-description{display:none;}.entry-title{font-size:30px;}h1,.entry-content h1{font-size:30px;}h2,.entry-content h2{font-size:25px;}h3,.entry-content h3{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:921px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:922px){.ast-container{max-width:1240px;}}@font-face {font-family: "Astra";src: url(https://vbank.ng/vbank-staging/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(https://vbank.ng/vbank-staging/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(https://vbank.ng/vbank-staging/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight: normal;font-style: normal;font-display: fallback;}@media (max-width:921px) {.main-header-bar .main-header-bar-navigation{display:none;}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#0170B9;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu{border-top-width:2px;border-right-width:0px;border-left-width:0px;border-bottom-width:0px;border-style:solid;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu{top:-2px;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .menu-link,.ast-desktop .main-header-menu.submenu-with-border .children .menu-link{border-bottom-width:0px;border-style:solid;border-color:#eaeaea;}@media (min-width:922px){.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu:hover > .sub-menu,.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu.focus > .sub-menu{margin-left:-0px;}}.ast-small-footer{border-top-style:solid;border-top-width:1px;border-top-color:#7a7a7a;}.ast-small-footer-wrap{text-align:center;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .main-header-bar-navigation .ast-search-icon {display: none;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-form {padding: 0;display: block;overflow: hidden;}.ast-header-break-point .ast-header-custom-item .widget:last-child {margin-bottom: 1em;}.ast-header-custom-item .widget {margin: 0.5em;display: inline-block;vertical-align: middle;}.ast-header-custom-item .widget p {margin-bottom: 0;}.ast-header-custom-item .widget li {width: auto;}.ast-header-custom-item-inside .button-custom-menu-item .menu-link {display: none;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .ast-custom-button-link {display: none;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .menu-link {display: block;}.ast-header-break-point.ast-header-custom-item-outside .main-header-bar .ast-search-icon {margin-right: 1em;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-field,.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon.ast-inline-search .search-field {width: 100%;padding-right: 5.5em;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-submit {display: block;position: absolute;height: 100%;top: 0;right: 0;padding: 0 1em;border-radius: 0;}.ast-header-break-point .ast-header-custom-item .ast-masthead-custom-menu-items {padding-left: 20px;padding-right: 20px;margin-bottom: 1em;margin-top: 1em;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item {padding-left: 0;padding-right: 0;margin-top: 0;margin-bottom: 0;}.astra-icon-down_arrow::after {content: "\e900";font-family: Astra;}.astra-icon-close::after {content: "\e5cd";font-family: Astra;}.astra-icon-drag_handle::after {content: "\e25d";font-family: Astra;}.astra-icon-format_align_justify::after {content: "\e235";font-family: Astra;}.astra-icon-menu::after {content: "\e5d2";font-family: Astra;}.astra-icon-reorder::after {content: "\e8fe";font-family: Astra;}.astra-icon-search::after {content: "\e8b6";font-family: Astra;}.astra-icon-zoom_in::after {content: "\e56b";font-family: Astra;}.astra-icon-check-circle::after {content: "\e901";font-family: Astra;}.astra-icon-shopping-cart::after {content: "\f07a";font-family: Astra;}.astra-icon-shopping-bag::after {content: "\f290";font-family: Astra;}.astra-icon-shopping-basket::after {content: "\f291";font-family: Astra;}.astra-icon-circle-o::after {content: "\e903";font-family: Astra;}.astra-icon-certificate::after {content: "\e902";font-family: Astra;}.ast-breadcrumbs .trail-browse,.ast-breadcrumbs .trail-items,.ast-breadcrumbs .trail-items li{display:inline-block;margin:0;padding:0;border:none;background:inherit;text-indent:0;}.ast-breadcrumbs .trail-browse{font-size:inherit;font-style:inherit;font-weight:inherit;color:inherit;}.ast-breadcrumbs .trail-items{list-style:none;}.trail-items li::after{padding:0 0.3em;content:"\00bb";}.trail-items li:last-of-type::after{display:none;}.elementor-template-full-width .ast-container{display:block;}.ast-header-break-point .main-header-bar{border-bottom-width:1px;}@media (min-width:922px){.main-header-bar{border-bottom-width:1px;}}.ast-safari-browser-less-than-11 .main-header-menu .menu-item, .ast-safari-browser-less-than-11 .main-header-bar .ast-masthead-custom-menu-items{display:block;}.main-header-menu .menu-item, #astra-footer-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link,{height:100%;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-js-display:flex;display:flex;}.ast-primary-menu-disabled .main-header-bar .ast-masthead-custom-menu-items{flex:unset;}.main-header-menu .sub-menu .menu-item.menu-item-has-children > .menu-link:after{position:absolute;right:1em;top:50%;transform:translate(0,-50%) rotate(270deg);}.ast-header-break-point .main-header-bar .main-header-bar-navigation .page_item_has_children > .ast-menu-toggle::before, .ast-header-break-point .main-header-bar .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle::before, .ast-mobile-popup-drawer .main-header-bar-navigation .menu-item-has-children>.ast-menu-toggle::before, .ast-header-break-point .ast-mobile-header-wrap .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle::before{font-weight:bold;content:"\e900";font-family:Astra;text-decoration:inherit;display:inline-block;}.ast-header-break-point .main-navigation ul.sub-menu .menu-item .menu-link:before{content:"\e900";font-family:Astra;font-size:.65em;text-decoration:inherit;display:inline-block;transform:translate(0, -2px) rotateZ(270deg);margin-right:5px;}.widget_search .search-form:after{font-family:Astra;font-size:1.2em;font-weight:normal;content:"\e8b6";position:absolute;top:50%;right:15px;transform:translate(0, -50%);}.astra-search-icon::before{content:"\e8b6";font-family:Astra;font-style:normal;font-weight:normal;text-decoration:inherit;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.main-header-bar .main-header-bar-navigation .page_item_has_children > a:after, .main-header-bar .main-header-bar-navigation .menu-item-has-children > a:after, .site-header-focus-item .main-header-bar-navigation .menu-item-has-children > .menu-link:after{content:"\e900";display:inline-block;font-family:Astra;font-size:.6rem;font-weight:bold;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;line-height:normal;}.ast-mobile-popup-drawer .main-header-bar-navigation .ast-submenu-expanded>.ast-menu-toggle::before{transform:rotateX(180deg);}.ast-header-break-point .main-header-bar-navigation .menu-item-has-children > .menu-link:after{display:none;}.ast-pagination .next.page-numbers{display:inherit;float:none;}.ast-pagination a{color:#0170B9;}.ast-pagination a:hover, .ast-pagination a:focus, .ast-pagination > span:hover:not(.dots), .ast-pagination > span.current{color:#3a3a3a;}.ast-pagination .prev.page-numbers,.ast-pagination .next.page-numbers {padding: 0 1.5em;height: 2.33333em;line-height: calc(2.33333em - 3px);}.ast-pagination {display: inline-block;width: 100%;padding-top: 2em;text-align: center;}.ast-pagination .page-numbers {display: inline-block;width: 2.33333em;height: 2.33333em;font-size: 16px;font-size: 1.06666rem;line-height: calc(2.33333em - 3px);}.ast-pagination .nav-links {display: inline-block;width: 100%;}@media (max-width: 420px) {.ast-pagination .prev.page-numbers,.ast-pagination .next.page-numbers {width: 100%;text-align: center;margin: 0;}}.ast-pagination .prev,.ast-pagination .prev:visited,.ast-pagination .prev:focus,.ast-pagination .next,.ast-pagination .next:visited,.ast-pagination .next:focus {display: inline-block;width: auto;}.ast-page-builder-template .ast-pagination {padding: 2em;}.ast-pagination .prev.page-numbers.dots,.ast-pagination .prev.page-numbers.dots:hover,.ast-pagination .prev.page-numbers.dots:focus,.ast-pagination .prev.page-numbers:visited.dots,.ast-pagination .prev.page-numbers:visited.dots:hover,.ast-pagination .prev.page-numbers:visited.dots:focus,.ast-pagination .prev.page-numbers:focus.dots,.ast-pagination .prev.page-numbers:focus.dots:hover,.ast-pagination .prev.page-numbers:focus.dots:focus,.ast-pagination .next.page-numbers.dots,.ast-pagination .next.page-numbers.dots:hover,.ast-pagination .next.page-numbers.dots:focus,.ast-pagination .next.page-numbers:visited.dots,.ast-pagination .next.page-numbers:visited.dots:hover,.ast-pagination .next.page-numbers:visited.dots:focus,.ast-pagination .next.page-numbers:focus.dots,.ast-pagination .next.page-numbers:focus.dots:hover,.ast-pagination .next.page-numbers:focus.dots:focus {border: 2px solid #eaeaea;background: transparent;}.ast-pagination .prev.page-numbers.dots,.ast-pagination .prev.page-numbers:visited.dots,.ast-pagination .prev.page-numbers:focus.dots,.ast-pagination .next.page-numbers.dots,.ast-pagination .next.page-numbers:visited.dots,.ast-pagination .next.page-numbers:focus.dots {cursor: default;}@media (min-width: 993px) {.ast-pagination {padding-left: 3.33333em;padding-right: 3.33333em;}}.ast-pagination .next.page-numbers {float: right;}@media (max-width: 768px) {.ast-pagination .next.page-numbers .page-navigation {padding-right: 0;}}@media (min-width: 769px) {.ast-pagination .prev.page-numbers.next,.ast-pagination .prev.page-numbers:visited.next,.ast-pagination .prev.page-numbers:focus.next,.ast-pagination .next.page-numbers.next,.ast-pagination .next.page-numbers:visited.next,.ast-pagination .next.page-numbers:focus.next {margin-right: 0;}}
+</style>
+<link rel='stylesheet' id='bdt-uikit-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.5.5' media='all' />
+<link rel='stylesheet' id='element-pack-site-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/bdthemes-element-pack/assets/css/element-pack-site.css?ver=5.9.1' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://vbank.ng/vbank-staging/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' media='all' />
+<link rel='stylesheet' id='ae-pro-css-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/anywhere-elementor-pro/includes/assets/css/ae-pro.min.css?ver=5.7.2' media='all' />
+<link rel='stylesheet' id='select2-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/beautiful-taxonomy-filters/public/css/select2.min.css?ver=2.4.3' media='all' />
+<link rel='stylesheet' id='beautiful-taxonomy-filters-basic-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/beautiful-taxonomy-filters/public/css/beautiful-taxonomy-filters-base.min.css?ver=2.4.3' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://vbank.ng/vbank-staging/wp-includes/css/dashicons.min.css?ver=5.7.2' media='all' />
+<link rel='stylesheet' id='post-views-counter-frontend-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/post-views-counter/css/frontend.css?ver=1.3.4' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.6' media='all' />
+<style id='rs-plugin-settings-inline-css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='plus-icons-mind-css-css'  href='//vbank.ng/vbank-staging/wp-content/plugins/The-Plus-–-Addon-for-Elementor-Page-Builder-WordPress-Plugin.4.0.2/assets/css/extra/iconsmind.min.css?ver=4.0.2' media='all' />
+<link rel='stylesheet' id='theplus-front-css-css'  href='//vbank.ng/vbank-staging/wp-content/uploads/theplus-addons/theplus-term-404.min.css?ver=1626268524' media='all' />
+<link rel='stylesheet' id='vegas-css-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/anywhere-elementor-pro/includes/assets/lib/vegas/vegas.min.css?ver=5.7.2' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.3.4' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.2.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.2.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.2.5' media='all' />
+<style id='elementor-frontend-inline-css'>
+@font-face{font-family:eicons;src:url(https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+</style>
+<link rel='stylesheet' id='elementor-post-5-css'  href='https://vbank.ng/vbank-staging/wp-content/uploads/elementor/css/post-5.css?ver=1624472140' media='all' />
+<link rel='stylesheet' id='dce-style-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/dynamic-content-for-elementor/assets/css/style.min.css?ver=1.15.3' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.0.10' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.2.5' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.2.5' media='all' />
+<link rel='stylesheet' id='elementor-post-43-css'  href='https://vbank.ng/vbank-staging/wp-content/uploads/elementor/css/post-43.css?ver=1624472145' media='all' />
+<link rel='stylesheet' id='elementor-post-72-css'  href='https://vbank.ng/vbank-staging/wp-content/uploads/elementor/css/post-72.css?ver=1624472145' media='all' />
+<link rel='stylesheet' id='elementor-post-3190-css'  href='https://vbank.ng/vbank-staging/wp-content/uploads/elementor/css/post-3190.css?ver=1624472145' media='all' />
+<link rel='stylesheet' id='vbank-theme-css-css'  href='https://vbank.ng/vbank-staging/wp-content/themes/astra-child/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1' media='all' />
+<!--[if IE]>
+<script src='https://vbank.ng/vbank-staging/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=3.5.0' id='astra-flexibility-js'></script>
+<script id='astra-flexibility-js-after'>
+flexibility(document.documentElement);
+</script>
+<![endif]-->
+<script id='exactmetrics-frontend-script-js-extra'>
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/vbank.ng","hash_tracking":"false","ua":"UA-188442514-1"};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=6.7.0' id='exactmetrics-frontend-script-js'></script>
+<script id='monsterinsights-frontend-script-js-extra'>
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/vbank.ng","hash_tracking":"false","ua":"UA-152887628-4"};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=7.17.0' id='monsterinsights-frontend-script-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.6' id='tp-tools-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.6' id='revmin-js'></script>
+<script src='//maps.googleapis.com/maps/api/js?key=&#038;sensor=false' id='gmaps-js-js'></script>
+<script id='search-filter-plugin-build-js-extra'>
+var SF_LDATA = {"ajax_url":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","home_url":"https:\/\/vbank.ng\/"};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.3.4' id='search-filter-plugin-build-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.3.4' id='search-filter-plugin-chosen-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.2.5' id='font-awesome-4-shim-js'></script>
+<link rel="https://api.w.org/" href="https://vbank.ng/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://vbank.ng/vbank-staging/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://vbank.ng/vbank-staging/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSKXX6Z');</script>
+<!-- End Google Tag Manager --><style></style>		<style>*:not(.elementor-editor-active) .plus-conditions--hidden {
+				  display: none;
+				}</style>
+		<script>
+!function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){(t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","banners",{banners: {key: "0b8cc509-0336-42d2-af2e-e59771c40685"}})
+AF('banners', 'showBanner')
+</script>
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.3.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2.svg" sizes="32x32" />
+<link rel="icon" href="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2.svg" />
+<meta name="msapplication-TileImage" content="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2.svg" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style id="wp-custom-css">
+			.pt_plus_asb_wrapper.fancy-box .fancybox-image-background {
+    background-repeat: no-repeat;
+	background-size: contain;
+height:480px!important;
+}
+.fancybox-image-background {
+    height: 400px!important;
+    min-height: 400px!important;
+}		</style>
+		</head>
+
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="error404 wp-custom-logo elementor-dce ast-desktop ast-separate-container ast-no-sidebar astra-3.5.0 ast-header-custom-item-inside group-blog ast-inherit-site-logo-transparent elementor-default elementor-kit-5">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSKXX6Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div 
+class="hfeed site" id="page">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+			<div data-elementor-type="header" data-elementor-id="43" data-post-id="6212" data-obj-id="6212" class="elementor elementor-43 dce-elementor-post-6212 elementor-location-header" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c243b42 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="c243b42" data-element_type="section" id="top" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90d8a87 ae-bg-gallery-type-default" data-id="90d8a87" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-4b5dda3 elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="4b5dda3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-5698731 ae-bg-gallery-type-default" data-id="5698731" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-76a3c3f elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="76a3c3f" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://vbank.ng">
+							<img src="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2-2.svg" class="attachment-full size-full astra-logo-svg" alt="" loading="lazy" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-db2d1d8 ae-bg-gallery-type-default" data-id="db2d1d8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7c0588a elementor-hidden-phone elementor-widget elementor-widget-tp-navigation-menu" data-id="7c0588a" data-element_type="widget" data-widget_type="tp-navigation-menu.default">
+				<div class="elementor-widget-container">
+					
+		<div class="plus-navigation-wrap text-right nav-menu60eee36d1f0277c0588a">
+			<div class="plus-navigation-inner menu-hover main-menu-indicator-none sub-menu-indicator-none plus-menu-style-4"  data-menu_transition="style-4" data-mobile-menu-click="yes">
+				<div id="theplus-navigation-normal-menu" class="collapse navbar-collapse navbar-ex1-collapse">
+				
+					<div class="plus-navigation-menu menu-horizontal  ">
+												<ul id="menu-demo" class="nav navbar-nav yamm menu-hover-none  "><li id="menu-item-2317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home animate-dropdown menu-item-2317 plus-dropdown-menu-" ><a title="Home" href="https://vbank.ng/" class="menu-link" data-text="Home">Home</a></li>
+<li id="menu-item-2318" class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2318 plus-dropdown-menu-" ><a title="About Us" href="https://vbank.ng/about-us/" class="menu-link" data-text="About Us">About Us</a></li>
+<li id="menu-item-2058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children animate-dropdown menu-item-2058 depth-0 dropdown plus-dropdown-menu-" ><a title="Open Account" href="#" class="dropdown-toggle menu-link" aria-haspopup="true" data-text="Open Account">Open Account</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-2321" class="menu-item menu-item-type-post_type menu-item-object-service animate-dropdown menu-item-2321 plus-dropdown-menu-" ><a title="Target Savings" href="https://vbank.ng/service/target-savings/" class="menu-link" data-text="Target Savings">Target Savings</a></li>
+	<li id="menu-item-273" class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-273 plus-dropdown-menu-" ><a title="Fixed deposit" href="https://vbank.ng/service/fixed-deposit/" class="menu-link" data-text="Fixed deposit">Fixed deposit</a></li>
+	<li id="menu-item-274" class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-274 plus-dropdown-menu-" ><a title="Joint Account" href="https://vbank.ng/service/joint-account/" class="menu-link" data-text="Joint Account">Joint Account</a></li>
+	<li id="menu-item-275" class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-275 plus-dropdown-menu-" ><a title="Savings Account" href="https://vbank.ng/service/savings-account/" class="menu-link" data-text="Savings Account">Savings Account</a></li>
+</ul>
+</li>
+<li id="menu-item-2320" class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2320 plus-dropdown-menu-" ><a title="Products" href="https://vbank.ng/products/" class="menu-link" data-text="Products">Products</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-50 plus-dropdown-menu-" ><a title="Support" target="_blank" href="http://support.vbank.ng/" class="menu-link" data-text="Support">Support</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-66 plus-dropdown-menu-" ><a title="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;" href="#" class="menu-link" data-text="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;"><span style="font-size:25px;color:#AC3282;">|</span></a></li>
+</ul>						
+					</div>
+					
+				</div>
+				
+															<div class="plus-mobile-nav-toggle navbar-header mobile-toggle">
+													<div class="mobile-plus-toggle-menu plus-collapsed toggle-style-1" data-target="#plus-mobile-nav-toggle-nav-menu60eee36d1f0277c0588a">
+																<ul class="toggle-lines">
+									<li class="toggle-line"></li>
+									<li class="toggle-line"></li>
+								</ul>
+															</div>
+						</div>
+															<div id="plus-mobile-nav-toggle-nav-menu60eee36d1f0277c0588a" class="collapse navbar-collapse navbar-ex1-collapse plus-mobile-menu-content ">
+						<div class="plus-mobile-menu"><ul id="menu-demo-1" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home animate-dropdown menu-item-2317 plus-dropdown-menu-" ><a title="Home" href="https://vbank.ng/" class="menu-link" data-text="Home">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2318 plus-dropdown-menu-" ><a title="About Us" href="https://vbank.ng/about-us/" class="menu-link" data-text="About Us">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children animate-dropdown menu-item-2058 depth-0 dropdown plus-dropdown-menu-" ><a title="Open Account" href="#" class="dropdown-toggle menu-link" aria-haspopup="true" data-text="Open Account">Open Account</a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-service animate-dropdown menu-item-2321 plus-dropdown-menu-" ><a title="Target Savings" href="https://vbank.ng/service/target-savings/" class="menu-link" data-text="Target Savings">Target Savings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-273 plus-dropdown-menu-" ><a title="Fixed deposit" href="https://vbank.ng/service/fixed-deposit/" class="menu-link" data-text="Fixed deposit">Fixed deposit</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-274 plus-dropdown-menu-" ><a title="Joint Account" href="https://vbank.ng/service/joint-account/" class="menu-link" data-text="Joint Account">Joint Account</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-275 plus-dropdown-menu-" ><a title="Savings Account" href="https://vbank.ng/service/savings-account/" class="menu-link" data-text="Savings Account">Savings Account</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2320 plus-dropdown-menu-" ><a title="Products" href="https://vbank.ng/products/" class="menu-link" data-text="Products">Products</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-50 plus-dropdown-menu-" ><a title="Support" target="_blank" href="http://support.vbank.ng/" class="menu-link" data-text="Support">Support</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-66 plus-dropdown-menu-" ><a title="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;" href="#" class="menu-link" data-text="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;"><span style="font-size:25px;color:#AC3282;">|</span></a></li>
+</ul></div>											</div>
+								
+			</div>
+		</div>
+		 
+		<style>@media (min-width:481px){.plus-navigation-wrap.nav-menu60eee36d1f0277c0588a #theplus-navigation-normal-menu{display: block!important;}.plus-navigation-wrap.nav-menu60eee36d1f0277c0588a #plus-mobile-nav-toggle-nav-menu60eee36d1f0277c0588a.collapse.in{display:none;}}@media (max-width:480px){.plus-navigation-wrap.nav-menu60eee36d1f0277c0588a #theplus-navigation-normal-menu{display:none !important;}.plus-navigation-wrap.nav-menu60eee36d1f0277c0588a .plus-mobile-nav-toggle.mobile-toggle{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: flex;-webkit-align-items: center;-moz-align-items: center;-ms-align-items: center;align-items: center;-webkit-justify-content: flex-end;-moz-justify-content: flex-end;-ms-justify-content: flex-end;justify-content: flex-end;}.plus-navigation-wrap .plus-mobile-menu-content.collapse.swiper-container{display: block;}}</style>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ddeb694 ae-bg-gallery-type-default" data-id="ddeb694" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-61b04c4 elementor-widget__width-auto elementor-widget elementor-widget-tp-button" data-id="61b04c4" data-element_type="widget" data-widget_type="tp-button.default">
+				<div class="elementor-widget-container">
+			<div class="pt-plus-button-wrapper   text-   "><div class="button_parallax   " ><div id="button60eee36d23c59"  class=" text- ts-button content_hover_effect   " ><div class="pt_plus_button btn60eee36d23c56 button-style-8   "  ><div class="animted-content-inner "><a href="https://vbank.ng/features/" class="button-link-wrap" role="button" data-hover="New Features"  >New Features</a></div></div></div></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d6934c0 ae-bg-gallery-type-default" data-id="d6934c0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b318c0b elementor-view-default elementor-widget elementor-widget-icon" data-id="b318c0b" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjMxOTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 58 58" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="7" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="51" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="29" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="7" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="51" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="29" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>			</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-11d98d3 header-2 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="11d98d3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_effects_offset&quot;:60,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17ef017 ae-bg-gallery-type-default" data-id="17ef017" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-584d2eb elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="584d2eb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6072765 ae-bg-gallery-type-default" data-id="6072765" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6df9eca elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="6df9eca" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://vbank.ng">
+							<img src="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2-2.svg" class="attachment-full size-full astra-logo-svg" alt="" loading="lazy" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8da03d0 ae-bg-gallery-type-default" data-id="8da03d0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-dce3067 elementor-hidden-phone elementor-widget elementor-widget-tp-navigation-menu" data-id="dce3067" data-element_type="widget" data-widget_type="tp-navigation-menu.default">
+				<div class="elementor-widget-container">
+					
+		<div class="plus-navigation-wrap text-right nav-menu60eee36d2c33fdce3067">
+			<div class="plus-navigation-inner menu-hover main-menu-indicator-none sub-menu-indicator-none plus-menu-style-4"  data-menu_transition="style-4" data-mobile-menu-click="yes">
+				<div id="theplus-navigation-normal-menu" class="collapse navbar-collapse navbar-ex1-collapse">
+				
+					<div class="plus-navigation-menu menu-horizontal  ">
+												<ul id="menu-demo-2" class="nav navbar-nav yamm menu-hover-none  "><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home animate-dropdown menu-item-2317 plus-dropdown-menu-" ><a title="Home" href="https://vbank.ng/" class="menu-link" data-text="Home">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2318 plus-dropdown-menu-" ><a title="About Us" href="https://vbank.ng/about-us/" class="menu-link" data-text="About Us">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children animate-dropdown menu-item-2058 depth-0 dropdown plus-dropdown-menu-" ><a title="Open Account" href="#" class="dropdown-toggle menu-link" aria-haspopup="true" data-text="Open Account">Open Account</a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-service animate-dropdown menu-item-2321 plus-dropdown-menu-" ><a title="Target Savings" href="https://vbank.ng/service/target-savings/" class="menu-link" data-text="Target Savings">Target Savings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-273 plus-dropdown-menu-" ><a title="Fixed deposit" href="https://vbank.ng/service/fixed-deposit/" class="menu-link" data-text="Fixed deposit">Fixed deposit</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-274 plus-dropdown-menu-" ><a title="Joint Account" href="https://vbank.ng/service/joint-account/" class="menu-link" data-text="Joint Account">Joint Account</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-275 plus-dropdown-menu-" ><a title="Savings Account" href="https://vbank.ng/service/savings-account/" class="menu-link" data-text="Savings Account">Savings Account</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2320 plus-dropdown-menu-" ><a title="Products" href="https://vbank.ng/products/" class="menu-link" data-text="Products">Products</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-50 plus-dropdown-menu-" ><a title="Support" target="_blank" href="http://support.vbank.ng/" class="menu-link" data-text="Support">Support</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-66 plus-dropdown-menu-" ><a title="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;" href="#" class="menu-link" data-text="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;"><span style="font-size:25px;color:#AC3282;">|</span></a></li>
+</ul>						
+					</div>
+					
+				</div>
+				
+															<div class="plus-mobile-nav-toggle navbar-header mobile-toggle">
+													<div class="mobile-plus-toggle-menu plus-collapsed toggle-style-1" data-target="#plus-mobile-nav-toggle-nav-menu60eee36d2c33fdce3067">
+																<ul class="toggle-lines">
+									<li class="toggle-line"></li>
+									<li class="toggle-line"></li>
+								</ul>
+															</div>
+						</div>
+															<div id="plus-mobile-nav-toggle-nav-menu60eee36d2c33fdce3067" class="collapse navbar-collapse navbar-ex1-collapse plus-mobile-menu-content ">
+						<div class="plus-mobile-menu"><ul id="menu-demo-3" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home animate-dropdown menu-item-2317 plus-dropdown-menu-" ><a title="Home" href="https://vbank.ng/" class="menu-link" data-text="Home">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2318 plus-dropdown-menu-" ><a title="About Us" href="https://vbank.ng/about-us/" class="menu-link" data-text="About Us">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children animate-dropdown menu-item-2058 depth-0 dropdown plus-dropdown-menu-" ><a title="Open Account" href="#" class="dropdown-toggle menu-link" aria-haspopup="true" data-text="Open Account">Open Account</a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-service animate-dropdown menu-item-2321 plus-dropdown-menu-" ><a title="Target Savings" href="https://vbank.ng/service/target-savings/" class="menu-link" data-text="Target Savings">Target Savings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-273 plus-dropdown-menu-" ><a title="Fixed deposit" href="https://vbank.ng/service/fixed-deposit/" class="menu-link" data-text="Fixed deposit">Fixed deposit</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-274 plus-dropdown-menu-" ><a title="Joint Account" href="https://vbank.ng/service/joint-account/" class="menu-link" data-text="Joint Account">Joint Account</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-275 plus-dropdown-menu-" ><a title="Savings Account" href="https://vbank.ng/service/savings-account/" class="menu-link" data-text="Savings Account">Savings Account</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page animate-dropdown menu-item-2320 plus-dropdown-menu-" ><a title="Products" href="https://vbank.ng/products/" class="menu-link" data-text="Products">Products</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-50 plus-dropdown-menu-" ><a title="Support" target="_blank" href="http://support.vbank.ng/" class="menu-link" data-text="Support">Support</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom animate-dropdown menu-item-66 plus-dropdown-menu-" ><a title="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;" href="#" class="menu-link" data-text="&lt;span style=&quot;font-size:25px;color:#AC3282;&quot;&gt;|&lt;/span&gt;"><span style="font-size:25px;color:#AC3282;">|</span></a></li>
+</ul></div>											</div>
+								
+			</div>
+		</div>
+		 
+		<style>@media (min-width:481px){.plus-navigation-wrap.nav-menu60eee36d2c33fdce3067 #theplus-navigation-normal-menu{display: block!important;}.plus-navigation-wrap.nav-menu60eee36d2c33fdce3067 #plus-mobile-nav-toggle-nav-menu60eee36d2c33fdce3067.collapse.in{display:none;}}@media (max-width:480px){.plus-navigation-wrap.nav-menu60eee36d2c33fdce3067 #theplus-navigation-normal-menu{display:none !important;}.plus-navigation-wrap.nav-menu60eee36d2c33fdce3067 .plus-mobile-nav-toggle.mobile-toggle{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: flex;-webkit-align-items: center;-moz-align-items: center;-ms-align-items: center;align-items: center;-webkit-justify-content: flex-end;-moz-justify-content: flex-end;-ms-justify-content: flex-end;justify-content: flex-end;}.plus-navigation-wrap .plus-mobile-menu-content.collapse.swiper-container{display: block;}}</style>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48940e3 ae-bg-gallery-type-default" data-id="48940e3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ccead2e elementor-widget__width-auto elementor-widget elementor-widget-tp-button" data-id="ccead2e" data-element_type="widget" data-widget_type="tp-button.default">
+				<div class="elementor-widget-container">
+			<div class="pt-plus-button-wrapper   text- text--mobileright   "><div class="button_parallax   " ><div id="button60eee36d2efd2"  class=" text- text--mobileright ts-button content_hover_effect   " ><div class="pt_plus_button btn60eee36d2efd0 button-style-8   "  ><div class="animted-content-inner "><a href="https://vbank.ng/features/" class="button-link-wrap" role="button" data-hover="New features"  >New features</a></div></div></div></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-29da649 ae-bg-gallery-type-default" data-id="29da649" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d3b821a elementor-view-default elementor-widget elementor-widget-icon" data-id="d3b821a" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjMxOTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 58 58" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="7" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="51" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="29" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="7" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="51" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="29" cy="29" r="7" fill="#ac3282" data-original="#7383bf" class=""></circle>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>			</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+			<div id="content" class="site-content">
+		<div class="ast-container">
+		
+
+	<div id="primary" class="content-area primary">
+
+		
+		
+
+<section class="error-404 not-found">
+
+	
+	<div class="ast-404-layout-1" >
+
+	<header class="page-header"><h1 class="page-title">This page doesn&#039;t seem to exist.</h1></header><!-- .page-header -->
+	<div class="page-content">
+
+		<div class="page-sub-title">
+			It looks like the link pointing here was faulty. Maybe try searching?		</div>
+
+		<div class="ast-404-search">
+			<div class="widget widget_search"><form role="search" method="get" class="search-form" action="https://vbank.ng/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s">
+			</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+</div>		</div>
+
+	</div><!-- .page-content -->
+</div>
+
+	
+</section><!-- .error-404 -->
+
+		
+
+		
+	</div><!-- #primary -->
+
+
+	</div> <!-- ast-container -->
+	</div><!-- #content -->
+		<div data-elementor-type="footer" data-elementor-id="72" data-post-id="6212" data-obj-id="6212" class="elementor elementor-72 dce-elementor-post-6212 elementor-location-footer" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-7a529da6 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="7a529da6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-75231325 ae-bg-gallery-type-default" data-id="75231325" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-64ff3f elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="64ff3f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4afbffee ae-bg-gallery-type-default" data-id="4afbffee" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7dba2f91 elementor-widget elementor-widget-heading" data-id="7dba2f91" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Join our mailing list
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-661d809d elementor-widget elementor-widget-heading" data-id="661d809d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Subscribe for our newsletter, and get updates on what happens behind the scenes at V </h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-16f17af0 elementor-mobile-button-align-stretch elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="16f17af0" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="mailing-list">
+			<input type="hidden" name="post_id" value="72"/>
+			<input type="hidden" name="form_id" value="16f17af0"/>
+
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-80 elementor-sm-100 elementor-field-required">
+					<label for="form-field-email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Type email to join the V community" required="required" aria-required="true">				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-xs">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Join now</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-442e28d elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="442e28d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4860bee ae-bg-gallery-type-default" data-id="4860bee" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-c6620d9 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="c6620d9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-4c05968 ae-bg-gallery-type-default" data-id="4c05968" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-aa8696b elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="aa8696b" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Consumers</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Business Accounts</span>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/service/fixed-deposit/">					<span class="elementor-icon-list-text">Fixed deposits</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/events/">					<span class="elementor-icon-list-text">Events</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-7c92040 ae-bg-gallery-type-default" data-id="7c92040" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8795180 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="8795180" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/service/target-savings/">					<span class="elementor-icon-list-text">Target Savings</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/feature/the-veelage/">					<span class="elementor-icon-list-text">Veelage</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">USSD Banking</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-f6d15e5 ae-bg-gallery-type-default" data-id="f6d15e5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e93b1ec elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e93b1ec" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="https://wa.me/2348091111463" target="_blank">					<span class="elementor-icon-list-text">V Bank Chat</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/feature/card-services/">					<span class="elementor-icon-list-text">Verified Debit Card</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Newsletter</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-3b3ec19 ae-bg-gallery-type-default" data-id="3b3ec19" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b8da710 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b8da710" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="http://support.vbank.ng/" target="_blank">					<span class="elementor-icon-list-text">Support</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/faqs/">					<span class="elementor-icon-list-text">FAQs</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/blog/">					<span class="elementor-icon-list-text">Blog</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-ced54e8 ae-bg-gallery-type-default" data-id="ced54e8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c1b0024 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="c1b0024" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/contact/">					<span class="elementor-icon-list-text">Contact</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/media/">					<span class="elementor-icon-list-text">Media</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="https://vbank.ng/products/">					<span class="elementor-icon-list-text">Products</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-0e27d12 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="0e27d12" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0be572 ae-bg-gallery-type-default" data-id="e0be572" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-36ef82d elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="36ef82d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5320ded ae-bg-gallery-type-default" data-id="5320ded" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-898dc13 elementor-widget elementor-widget-heading" data-id="898dc13" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Connect with V</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9495b95 ae-bg-gallery-type-default" data-id="9495b95" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2e5d5b0 e-grid-align-left e-grid-align-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="2e5d5b0" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-5d92c8b" href="https://www.facebook.com/vbankng" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-1a7502d" href="https://twitter.com/vbankng" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-ade3f9b" href="https://www.instagram.com/vbankng/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b97fc3b ae-bg-gallery-type-default" data-id="b97fc3b" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-f1ff383 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="f1ff383" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-0693da2 ae-bg-gallery-type-default" data-id="0693da2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-512a07e elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-text-editor" data-id="512a07e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+					<p>*Each account attached to your referral code should have a minimum account balance. Download the agency structure pdf<a href="https://drive.google.com/uc?export=download&amp;id=1X-PAWdCtCrTh1gzbXRwk5LIIxWUwdbaW" target="_blank" rel="noopener" download="Referrer Structure"> here </a>for more info</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-8d1a79b elementor-widget elementor-widget-text-editor" data-id="8d1a79b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+					<p>© 2021 VFD Microfinance Bank (RC1000015) All Rights Reserved. All deposits are insured by Nigeria Deposit Insurance Corporation (NDIC). VFD Microfinance Bank Licensed by The Central Bank of Nigeria. &#8220;V&#8221;, &#8220;Veta&#8221; and VBank are trademarks of VTECH: Foresight House, broad street, Lagos Island, Lagos Nigeria.</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-f9b60e8 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f9b60e8" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+					<a href="https://vbank.ng/privacy-policy/">					<span class="elementor-icon-list-text">Privacy Policy |</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+					<a href="https://vbank.ng/terms-of-use-for-mobile-app/">					<span class="elementor-icon-list-text">Terms of Use |</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+					<a href="https://vbank.ng/end-user-licence-agreement/">					<span class="elementor-icon-list-text">Licence Agreement |</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+					<a href="https://vbank.ng/terms-conditions-for-debit-cards/">					<span class="elementor-icon-list-text">Debit cards terms and conditions</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-71e571c elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="71e571c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9129983 ae-bg-gallery-type-default" data-id="9129983" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0cb28dd elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="0cb28dd" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://vbank.ng">
+							<img src="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2-2.svg" class="attachment-full size-full astra-logo-svg" alt="" loading="lazy" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1310f5e ae-bg-gallery-type-default" data-id="1310f5e" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d0808d9 elementor-widget elementor-widget-heading" data-id="d0808d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Powered by</br>
+VFD Microfinance Bank</h6>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3534659 ae-bg-gallery-type-default" data-id="3534659" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-c94a674 elementor-section-full_width elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="c94a674" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c67b070 ae-bg-gallery-type-default" data-id="c67b070" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c98d9c elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="2c98d9c" data-element_type="widget" data-settings="{&quot;sticky&quot;:&quot;bottom&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="#top">
+			<i aria-hidden="true" class="fas fa-long-arrow-alt-up"></i>			</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+			</div><!-- #page -->
+		<div data-elementor-type="popup" data-elementor-id="3190" data-post-id="6212" data-obj-id="6212" class="elementor elementor-3190 dce-elementor-post-6212 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;slideInRight&quot;,&quot;exit_animation&quot;:&quot;slideInRight&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.3,&quot;sizes&quot;:[]},&quot;prevent_close_on_background_click&quot;:&quot;yes&quot;,&quot;prevent_close_on_esc_key&quot;:&quot;yes&quot;,&quot;avoid_multiple_popups&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
+		<div class="elementor-section-wrap">
+					<section class="has_ae_slider elementor-section elementor-top-section elementor-element elementor-element-a7723a5 elementor-section-height-full elementor-section-items-top elementor-section-boxed elementor-section-height-default ae-bg-gallery-type-default" data-id="a7723a5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0f3ab79 ae-bg-gallery-type-default" data-id="0f3ab79" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6588cd3 elementor-widget elementor-widget-heading" data-id="6588cd3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Quick Links</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fb878b8 elementor-nav-menu--indicator-classic elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="fb878b8" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;dropdown&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-fb878b8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3340"><a href="https://vbank.ng/" class="elementor-item menu-link">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3549"><a href="https://vbank.ng/blog/" class="elementor-item menu-link">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3332"><a href="https://vbank.ng/about-us/" class="elementor-item menu-link">About us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3333"><a href="#" class="elementor-item elementor-item-anchor menu-link">Open Account</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-service menu-item-3343"><a href="https://vbank.ng/service/target-savings/" class="elementor-sub-item menu-link">Target Savings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3335"><a href="https://vbank.ng/service/fixed-deposit/" class="elementor-sub-item menu-link">Fixed Deposit</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3336"><a href="https://vbank.ng/service/joint-account/" class="elementor-sub-item menu-link">Joint Account</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3337"><a href="https://vbank.ng/service/savings-account/" class="elementor-sub-item menu-link">Savings Account</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3331"><a href="https://vbank.ng/products/" class="elementor-item menu-link">Products</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4790"><a href="https://vbank.ng/feature/card-services/" class="elementor-sub-item menu-link">Cards Services</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4791"><a href="https://vbank.ng/feature/literarily-no-limits/" class="elementor-sub-item menu-link">QR Code</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4789"><a href="https://vbank.ng/feature/the-veelage/" class="elementor-sub-item menu-link">Joint the Veelage</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4792"><a href="https://wa.me/2348091111463" class="elementor-sub-item menu-link">VBank chat</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3330"><a href="https://vbank.ng/features/" class="elementor-item menu-link">Features</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a href="https://vbank.ng/media/" class="elementor-item menu-link">Media</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4939"><a href="https://vbank.ng/events/" class="elementor-item menu-link">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3328"><a href="https://vbank.ng/faqs/" class="elementor-item menu-link">Faq</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3339"><a href="http://support.vbank.ng/" class="elementor-item menu-link">Support</a></li>
+</ul></nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f9a2a01 elementor-widget elementor-widget-text-editor" data-id="f9a2a01" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+					VBank Apps – Get our latest thinking on your iPhone, iPad, or Android device.					</div>
+						</div>
+				</div>
+				<section class="has_ae_slider elementor-section elementor-inner-section elementor-element elementor-element-6100889 elementor-section-boxed elementor-section-height-default elementor-section-height-default ae-bg-gallery-type-default" data-id="6100889" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8062fc7 ae-bg-gallery-type-default" data-id="8062fc7" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-afa69da dce_masking-none elementor-widget elementor-widget-image" data-id="afa69da" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://v-bank.onelink.me/lKea/adc5f681">
+							<img src="https://vbank.ng/vbank-staging/wp-content/uploads/2021/01/Group4.svg" class="attachment-full size-full" alt="" loading="lazy" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="has_ae_slider elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6d8e126 ae-bg-gallery-type-default" data-id="6d8e126" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2b3f064 dce_masking-none elementor-widget elementor-widget-image" data-id="2b3f064" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+													<a href="https://v-bank.onelink.me/lKea/adc5f681">
+							<img src="https://vbank.ng/vbank-staging/wp-content/uploads/2021/01/Group3.svg" class="attachment-full size-full" alt="" loading="lazy" />								</a>
+														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				</div>
+		</div>
+		<script type="text/javascript">
+		/* MonsterInsights Scroll Tracking */
+			if ( typeof(jQuery) !== 'undefined' ) {
+				jQuery( document ).ready(function(){
+					function monsterinsights_scroll_tracking_load() {
+						if ( ( typeof(__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty( "loaded" ) && __gaTracker.loaded == true ) || ( typeof(__gtagTracker) !== 'undefined' && __gtagTracker ) ) {
+							(function(factory) {
+								factory(jQuery);
+							}(function($) {
+
+								/* Scroll Depth */
+								"use strict";
+								var defaults = {
+									percentage: true
+								};
+
+								var $window = $(window),
+									cache = [],
+									scrollEventBound = false,
+									lastPixelDepth = 0;
+
+								/*
+								 * Plugin
+								 */
+
+								$.scrollDepth = function(options) {
+
+									var startTime = +new Date();
+
+									options = $.extend({}, defaults, options);
+
+									/*
+									 * Functions
+									 */
+
+									function sendEvent(action, label, scrollDistance, timing) {
+                                                                                    var type        = 'event';
+                                            var eventName   = action;
+                                            var fieldsArray = {
+                                                event_category : 'Scroll Depth',
+                                                event_label    : label,
+                                                value          : 1,
+                                                non_interaction: true
+                                            };
+
+                                            if ( 'undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent ) {
+                                                return;
+                                            }
+
+                                            MonsterInsightsObject.sendEvent( type, eventName, fieldsArray );
+                                            if (arguments.length > 3) {
+                                                var type        = 'event';
+                                                var eventName   = 'timing_complete';
+                                                fieldsArray = {
+                                                    event_category : 'Scroll Depth',
+                                                    name           : action,
+                                                    event_label    : label,
+                                                    value          : timing,
+                                                    non_interaction: 1
+                                                };
+                                                MonsterInsightsObject.sendEvent( type, eventName, fieldsArray );
+                                            }
+                                        									}
+
+									function calculateMarks(docHeight) {
+										return {
+											'25%' : parseInt(docHeight * 0.25, 10),
+											'50%' : parseInt(docHeight * 0.50, 10),
+											'75%' : parseInt(docHeight * 0.75, 10),
+											/* Cushion to trigger 100% event in iOS */
+											'100%': docHeight - 5
+										};
+									}
+
+									function checkMarks(marks, scrollDistance, timing) {
+										/* Check each active mark */
+										$.each(marks, function(key, val) {
+											if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+												sendEvent('Percentage', key, scrollDistance, timing);
+												cache.push(key);
+											}
+										});
+									}
+
+									function rounded(scrollDistance) {
+										/* Returns String */
+										return (Math.floor(scrollDistance/250) * 250).toString();
+									}
+
+									function init() {
+										bindScrollDepth();
+									}
+
+									/*
+									 * Public Methods
+									 */
+
+									/* Reset Scroll Depth with the originally initialized options */
+									$.scrollDepth.reset = function() {
+										cache = [];
+										lastPixelDepth = 0;
+										$window.off('scroll.scrollDepth');
+										bindScrollDepth();
+									};
+
+									/* Add DOM elements to be tracked */
+									$.scrollDepth.addElements = function(elems) {
+
+										if (typeof elems == "undefined" || !$.isArray(elems)) {
+											return;
+										}
+
+										$.merge(options.elements, elems);
+
+										/* If scroll event has been unbound from window, rebind */
+										if (!scrollEventBound) {
+											bindScrollDepth();
+										}
+
+									};
+
+									/* Remove DOM elements currently tracked */
+									$.scrollDepth.removeElements = function(elems) {
+
+										if (typeof elems == "undefined" || !$.isArray(elems)) {
+											return;
+										}
+
+										$.each(elems, function(index, elem) {
+
+											var inElementsArray = $.inArray(elem, options.elements);
+											var inCacheArray = $.inArray(elem, cache);
+
+											if (inElementsArray != -1) {
+												options.elements.splice(inElementsArray, 1);
+											}
+
+											if (inCacheArray != -1) {
+												cache.splice(inCacheArray, 1);
+											}
+
+										});
+
+									};
+
+									/*
+									 * Throttle function borrowed from:
+									 * Underscore.js 1.5.2
+									 * http://underscorejs.org
+									 * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+									 * Underscore may be freely distributed under the MIT license.
+									 */
+
+									function throttle(func, wait) {
+										var context, args, result;
+										var timeout = null;
+										var previous = 0;
+										var later = function() {
+											previous = new Date;
+											timeout = null;
+											result = func.apply(context, args);
+										};
+										return function() {
+											var now = new Date;
+											if (!previous) previous = now;
+											var remaining = wait - (now - previous);
+											context = this;
+											args = arguments;
+											if (remaining <= 0) {
+												clearTimeout(timeout);
+												timeout = null;
+												previous = now;
+												result = func.apply(context, args);
+											} else if (!timeout) {
+												timeout = setTimeout(later, remaining);
+											}
+											return result;
+										};
+									}
+
+									/*
+									 * Scroll Event
+									 */
+
+									function bindScrollDepth() {
+
+										scrollEventBound = true;
+
+										$window.on('scroll.scrollDepth', throttle(function() {
+											/*
+											 * We calculate document and window height on each scroll event to
+											 * account for dynamic DOM changes.
+											 */
+
+											var docHeight = $(document).height(),
+												winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+												scrollDistance = $window.scrollTop() + winHeight,
+
+												/* Recalculate percentage marks */
+												marks = calculateMarks(docHeight),
+
+												/* Timing */
+												timing = +new Date - startTime;
+
+											checkMarks(marks, scrollDistance, timing);
+										}, 500));
+
+									}
+
+									init();
+								};
+
+								/* UMD export */
+								return $.scrollDepth;
+
+							}));
+
+							jQuery.scrollDepth();
+						} else {
+							setTimeout(monsterinsights_scroll_tracking_load, 200);
+						}
+					}
+					monsterinsights_scroll_tracking_load();
+				});
+			}
+		/* End MonsterInsights Scroll Tracking */
+		
+</script><script id='astra-theme-js-js-extra'>
+var astra = {"break_point":"921","isRtl":""};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/themes/astra/assets/js/minified/style.min.js?ver=3.5.0' id='astra-theme-js-js'></script>
+<script id='ae-pro-js-js-extra'>
+var aepro = {"ajaxurl":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","current_url":"aHR0cHM6Ly92YmFuay5uZy93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8xMC9SZWN0YW5nbGUtMjAucG5nLw==","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"plugin_url":"https:\/\/vbank.ng\/vbank-staging\/wp-content\/plugins\/anywhere-elementor-pro"};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/anywhere-elementor-pro/includes/assets/js/ae-pro.min.js?ver=2.17' id='ae-pro-js-js'></script>
+<script id='aep-build-js-extra'>
+var aepro = {"ajaxurl":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","current_url":"aHR0cHM6Ly92YmFuay5uZy93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8xMC9SZWN0YW5nbGUtMjAucG5nLw==","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"plugin_url":"https:\/\/vbank.ng\/vbank-staging\/wp-content\/plugins\/anywhere-elementor-pro"};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/anywhere-elementor-pro/build/index.js?ver=2.17' id='aep-build-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/beautiful-taxonomy-filters/public/js/select2/select2.full.min.js?ver=2.4.3' id='select2-js'></script>
+<script id='beautiful-taxonomy-filters-js-extra'>
+var btf_localization = {"ajaxurl":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","min_search":"8","allow_clear":"","show_description":"","disable_select2":"","conditional_dropdowns":"","language":"","rtl":"","disable_fuzzy":"","show_count":""};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/beautiful-taxonomy-filters/public/js/beautiful-taxonomy-filters-public.js?ver=2.4.3' id='beautiful-taxonomy-filters-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1' id='jquery-ui-mouse-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/jquery/ui/slider.min.js?ver=1.12.1' id='jquery-ui-slider-js'></script>
+<script src='//vbank.ng/vbank-staging/wp-content/uploads/theplus-addons/theplus-term-404.min.js?ver=1626268524' id='theplus-front-js-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/anywhere-elementor-pro/includes/assets/lib/vegas/vegas.min.js?ver=2.4.0' id='vegas-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1' id='jquery-ui-datepicker-js'></script>
+<script id='jquery-ui-datepicker-js-after'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js'></script>
+<script id='bdt-uikit-js-extra'>
+var element_pack_ajax_login_config = {"ajaxurl":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","nonce":"cf835692b8","data_table":{"language":{"lengthMenu":"Show _MENU_ Entries","info":"Showing _START_ to _END_ of _TOTAL_ entries","search":"Search :","paginate":{"previous":"Previous","next":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js?ver=3.5.5' id='bdt-uikit-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.5' id='elementor-webpack-runtime-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.5' id='elementor-frontend-modules-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.2.5' id='share-link-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.5","is_static":false,"experimentalFeatures":[],"urls":{"assets":"https:\/\/vbank.ng\/vbank-staging\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[],"dynamicooo":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found &#8211; VBank","excerpt":""}};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.5' id='elementor-frontend-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/bdthemes-element-pack/assets/js/element-pack-site.min.js?ver=5.9.1' id='element-pack-site-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.0.10' id='elementor-sticky-js'></script>
+<script id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/vbank.ng\/vbank-staging\/wp-admin\/admin-ajax.php","nonce":"7e042432ab","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/vbank.ng\/vbank-staging\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.0.10' id='elementor-pro-frontend-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/The-Plus-–-Addon-for-Elementor-Page-Builder-WordPress-Plugin.4.0.2/assets/js/main/event-tracker/plus-event-tracker.min.js?ver=5.7.2' id='plus-event-tracker-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/The-Plus-–-Addon-for-Elementor-Page-Builder-WordPress-Plugin.4.0.2/assets/js/main/section-column-link/plus-section-column-link.min.js?ver=5.7.2' id='plus-section-column-link-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.5' id='preloaded-modules-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/dynamic-content-for-elementor/assets/js/settings.min.js?ver=1.15.3' id='dce-settings-js'></script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+<script id='wp-util-js-extra'>
+var _wpUtilSettings = {"ajax":{"url":"\/vbank-staging\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-includes/js/wp-util.min.js?ver=5.7.2' id='wp-util-js'></script>
+<script id='wpforms-elementor-js-extra'>
+var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
+</script>
+<script src='https://vbank.ng/vbank-staging/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.6.7.3' id='wpforms-elementor-js'></script>
+			<script>
+			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+			</script>
+				</body>
+</html>
