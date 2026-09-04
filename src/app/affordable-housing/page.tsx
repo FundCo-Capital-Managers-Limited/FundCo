@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import SectorPage from "@/components/SectorPage";
 
-export const metadata: Metadata = { title: "Affordable Housing | FundCo" };
+export const metadata: Metadata = {
+  title: "Affordable Housing",
+  description:
+    "FundCo is developing a Housing Solution Fund to unlock blended finance for sustainable, affordable housing delivery in Nigeria, where the housing unit deficit stands at an estimated 20 million.",
+};
 
 export default function AffordableHousing() {
   return (

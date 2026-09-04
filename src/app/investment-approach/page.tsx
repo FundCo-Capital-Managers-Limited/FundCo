@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 
-export const metadata: Metadata = { title: "Investment Approach | FundCo" };
+export const metadata: Metadata = {
+  title: "Investment Approach",
+  description:
+    "FundCo identifies, structures, and connects real assets in under-served sectors to the domestic institutional market through its investment funds, targeting the three pillars of the SDGs.",
+};
 
 export default function InvestmentApproach() {
   return (

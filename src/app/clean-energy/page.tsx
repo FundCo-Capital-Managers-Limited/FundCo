@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import SectorPage from "@/components/SectorPage";
 
-export const metadata: Metadata = { title: "Clean Energy | FundCo" };
+export const metadata: Metadata = {
+  title: "Clean Energy",
+  description:
+    "FundCo is developing a local-currency Clean Energy Fund to accelerate private capital into Nigeria's energy transition, addressing a market where over 85 million people lack access to power.",
+};
 
 export default function CleanEnergy() {
   return (

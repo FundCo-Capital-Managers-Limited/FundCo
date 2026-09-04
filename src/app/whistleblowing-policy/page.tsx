@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 
-export const metadata: Metadata = { title: "Whistleblowing Policy | FundCo" };
+export const metadata: Metadata = {
+  title: "Whistleblowing Policy",
+  description:
+    "FundCo Capital Managers' Whistleblowing Policy gives staff, directors, and stakeholders a safe, confidential route to report malpractice, wrongdoing, or risk without fear of reprisal.",
+};
 
 export default function WhistleblowingPolicy() {
   return (

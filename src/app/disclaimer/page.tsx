@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
-export const metadata: Metadata = { title: "Disclaimer | FundCo" };
+export const metadata: Metadata = {
+  title: "Disclaimer",
+  description:
+    "Read FundCo Capital Managers' disclaimer covering the use of information, external links, fair use, and liability limitations on this website.",
+};
 
 export default function Disclaimer() {
   return (

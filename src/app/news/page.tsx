@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 
-export const metadata: Metadata = { title: "News | FundCo" };
+export const metadata: Metadata = {
+  title: "News",
+  description:
+    "The latest announcements, insights, and updates from FundCo Capital Managers.",
+};
 
 export default function News() {
   return (

@@ -3,7 +3,11 @@ import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata: Metadata = { title: "Contact | FundCo" };
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with FundCo Capital Managers at our head office in Victoria Island, Lagos, by phone, email, or the contact form.",
+};
 
 export default function Contact() {
   return (

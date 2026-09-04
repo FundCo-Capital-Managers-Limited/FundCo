@@ -3,7 +3,11 @@ import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 
-export const metadata: Metadata = { title: "Team | FundCo" };
+export const metadata: Metadata = {
+  title: "Our Team",
+  description:
+    "Meet the leadership team at FundCo Capital Managers, a multidisciplinary group of professionals across investment management, advisory, operations, compliance, and finance.",
+};
 
 const TEAM = [
   {

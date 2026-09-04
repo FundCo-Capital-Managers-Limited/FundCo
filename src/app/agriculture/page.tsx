@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import SectorPage from "@/components/SectorPage";
 
-export const metadata: Metadata = { title: "Agriculture | FundCo" };
+export const metadata: Metadata = {
+  title: "Agriculture",
+  description:
+    "FundCo supports sustainable financing, climate-smart infrastructure, and technology-enabled farming solutions to improve productivity, food security, and rural economic development across Nigeria's agricultural sector.",
+};
 
 export default function Agriculture() {
   return (

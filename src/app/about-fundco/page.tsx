@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 
-export const metadata: Metadata = { title: "About Us | FundCo" };
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "FundCo is a specialized alternative asset manager mobilizing local capital into real assets that lead Nigeria's transition to a low-carbon economy, with a focus on risk-adjusted returns and ESG management.",
+};
 
 export default function AboutFundco() {
   return (

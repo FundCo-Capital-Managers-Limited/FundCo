@@ -5,7 +5,11 @@ import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
 import HealthcareIcon from "@/components/icons/HealthcareIcon";
 
-export const metadata: Metadata = { title: "Funds | FundCo" };
+export const metadata: Metadata = {
+  title: "Funds",
+  description:
+    "FundCo manages sector-focused funds unlocking domestic finance for small and medium-sized infrastructure in clean energy, affordable housing, and agriculture across Nigeria.",
+};
 
 const SECTORS = [
   { label: "Housing", icon: "/uploads/2021/07/housing.svg" },

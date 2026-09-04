@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import HealthcareIcon from "@/components/icons/HealthcareIcon";
+
+export const metadata: Metadata = {
+  description:
+    "FundCo is a specialized alternative asset manager mobilizing and investing local capital in real assets across clean energy, affordable housing, and agriculture that lead Nigeria's transition to a low-carbon economy.",
+};
 
 const SECTORS = [
   { label: "Agriculture", icon: "/uploads/2021/07/Agric.svg" },
