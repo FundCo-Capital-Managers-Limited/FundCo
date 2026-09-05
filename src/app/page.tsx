@@ -104,7 +104,7 @@ export default function Home() {
               Our Funds
             </Link>
             <a
-              href="/docs/FundCo-Fact-Sheet-July-2021.pdf"
+              href="/docs/FundCo-Fact-Sheet-September-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-white/70 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 hover:-translate-y-0.5 transition-all"
