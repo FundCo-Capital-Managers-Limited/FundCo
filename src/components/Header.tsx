@@ -9,8 +9,11 @@ const NAV: {
   href: string;
   children?: { href: string; label: string }[];
 }[] = [
+  { label: "Funds", href: "/funds" },
+  { label: "Impact", href: "/impact" },
+  { label: "Partners", href: "/partners" },
   {
-    label: "About",
+    label: "Company",
     href: "/about-fundco",
     children: [
       { href: "/about-fundco", label: "Who We Are" },
@@ -18,18 +21,6 @@ const NAV: {
       { href: "/investment-approach", label: "Investment Approach" },
     ],
   },
-  {
-    label: "What We Do",
-    href: "/funds",
-    children: [
-      { href: "/funds", label: "Funds Overview" },
-      { href: "/agriculture", label: "Agriculture" },
-      { href: "/clean-energy", label: "Clean Energy" },
-      { href: "/affordable-housing", label: "Affordable Housing" },
-    ],
-  },
-  { label: "News", href: "/news" },
-  { label: "Governance", href: "/whistleblowing-policy" },
   { label: "Contact", href: "/contact" },
 ];
 

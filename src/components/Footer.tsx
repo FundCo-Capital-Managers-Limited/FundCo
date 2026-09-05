@@ -48,11 +48,6 @@ export default function Footer() {
                 Investment Approach
               </Link>
             </li>
-            <li>
-              <Link href="/news" className="hover:text-white transition-colors">
-                News
-              </Link>
-            </li>
           </ul>
         </div>
 
@@ -64,6 +59,16 @@ export default function Footer() {
             <li>
               <Link href="/funds" className="hover:text-white transition-colors">
                 Funds Overview
+              </Link>
+            </li>
+            <li>
+              <Link href="/impact" className="hover:text-white transition-colors">
+                Impact
+              </Link>
+            </li>
+            <li>
+              <Link href="/partners" className="hover:text-white transition-colors">
+                Partners
               </Link>
             </li>
             <li>

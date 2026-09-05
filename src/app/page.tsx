@@ -45,9 +45,9 @@ const PORTFOLIO_LOGOS = [
 
 const HEADLINE_STATS = [
   { value: "2", label: "Live, SEC-regulated funds" },
-  { value: "6", label: "Portfolio companies" },
   { value: "21,000+", label: "tCO2e emissions avoided (CeF)" },
   { value: "10,000+", label: "Homes targeted (HSF)" },
+  { value: "370+", label: "Jobs created across CeF projects" },
 ];
 
 export default function Home() {
@@ -239,25 +239,52 @@ export default function Home() {
           <p className="mt-8 text-sm text-text-secondary">
             CeF is also Climate Bonds Certified by the Climate Bonds
             Initiative, with both agencies assigning a BBB national-scale
-            rating on a Stable outlook.
+            rating on a Stable outlook. See the full governance, custody and
+            partner network behind both funds on our{" "}
+            <Link href="/partners" className="font-semibold text-brand hover:underline">
+              Partners page
+            </Link>
+            .
           </p>
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-14 sm:py-20 text-center">
-        <h2 className="text-2xl sm:text-3xl font-bold text-brand mb-4">
-          Latest News
-        </h2>
-        <p className="text-text-secondary mb-6">
-          Stay up to date with FundCo&rsquo;s latest announcements and
-          insights.
-        </p>
-        <Link
-          href="/news"
-          className="inline-block rounded-full border border-brand px-6 py-3 text-sm font-semibold text-brand hover:bg-brand hover:text-white hover:-translate-y-0.5 transition-all"
-        >
-          View News
-        </Link>
+      <section className="mx-auto max-w-6xl px-6 py-14 sm:py-20">
+        <div className="grid gap-6 md:grid-cols-2">
+          <ScrollReveal className="rounded-2xl border border-border bg-white p-8 sm:p-10 shadow-sm hover:shadow-lg transition-all duration-300">
+            <h2 className="text-xl sm:text-2xl font-bold text-brand mb-3">
+              Backed by Leading Institutions
+            </h2>
+            <p className="text-text-secondary leading-relaxed mb-6">
+              CeF and HSF are governed and supported by a coalition of
+              trustees, custodians, rating agencies, and strategic
+              collaborators, including InfraCredit, Stanbic IBTC, Africa
+              Prudential, Shelter Afrique, and All On Energy.
+            </p>
+            <Link
+              href="/partners"
+              className="inline-block rounded-full border border-brand px-6 py-3 text-sm font-semibold text-brand hover:bg-brand hover:text-white hover:-translate-y-0.5 transition-all"
+            >
+              Meet our Partners
+            </Link>
+          </ScrollReveal>
+          <ScrollReveal delay={0.1} className="rounded-2xl border border-border bg-white p-8 sm:p-10 shadow-sm hover:shadow-lg transition-all duration-300">
+            <h2 className="text-xl sm:text-2xl font-bold text-brand mb-3">
+              Real, Measured Impact
+            </h2>
+            <p className="text-text-secondary leading-relaxed mb-6">
+              From emissions avoided to homes targeted and jobs created, see
+              the on-the-ground impact of FundCo&rsquo;s two live regulated
+              funds.
+            </p>
+            <Link
+              href="/impact"
+              className="inline-block rounded-full border border-brand px-6 py-3 text-sm font-semibold text-brand hover:bg-brand hover:text-white hover:-translate-y-0.5 transition-all"
+            >
+              View our Impact
+            </Link>
+          </ScrollReveal>
+        </div>
       </section>
 
       <section className="relative overflow-hidden bg-gradient-to-br from-brand to-brand-dark text-white">

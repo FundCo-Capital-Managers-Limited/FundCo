@@ -217,12 +217,28 @@ export default function Funds() {
           mainstream assets to alternative infrastructure asset classes that
           accelerate the transition to a low-carbon economy.
         </p>
-        <p className="text-text-secondary leading-relaxed">
+        <p className="text-text-secondary leading-relaxed mb-6">
           We believe this creates an unparalleled opportunity for strategic
           partnerships for innovation and sustainable development (SDG 17)
           that will create value and better risk adjusted returns for
-          institutional investors.
+          institutional investors. CeF and HSF are each governed and
+          supported by their own network of trustees, custodians, rating
+          agencies, and strategic collaborators.
         </p>
+        <div className="flex flex-wrap gap-3">
+          <Link
+            href="/partners"
+            className="inline-block rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-brand-dark hover:shadow-md hover:-translate-y-0.5 transition-all"
+          >
+            Meet our Partners
+          </Link>
+          <Link
+            href="/impact"
+            className="inline-block rounded-full border border-brand px-6 py-3 text-sm font-semibold text-brand hover:bg-brand hover:text-white hover:-translate-y-0.5 transition-all"
+          >
+            View our Impact
+          </Link>
+        </div>
       </section>
 
       <RelatedLinks />

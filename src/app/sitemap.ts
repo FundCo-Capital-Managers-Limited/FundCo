@@ -55,10 +55,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${BASE_URL}/news`,
+      url: `${BASE_URL}/impact`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.6,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/partners`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
     },
     {
       url: `${BASE_URL}/contact`,

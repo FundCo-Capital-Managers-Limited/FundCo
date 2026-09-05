@@ -78,7 +78,7 @@ export default function CleanEnergy() {
             logo: "/images/portfolio/e-mobilite.png",
             sector: "E-Mobility",
             blurb:
-              "A newly launched platform that owns, finances, and operates electric bicycles, tricycles, and four-wheel EVs across Nigeria on lease and hire-purchase terms.",
+              "Owns, finances, and operates electric bicycles, tricycles, and four-wheel EVs across Nigeria on lease and hire-purchase terms.",
             websiteUrl: "https://e-mobilite.ng",
           },
           {

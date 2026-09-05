@@ -1,10 +1,12 @@
 import Link from "next/link";
 
 const LINKS = [
+  { href: "/funds", label: "Our Funds" },
+  { href: "/impact", label: "Impact" },
+  { href: "/partners", label: "Partners" },
   { href: "/about-fundco", label: "About us" },
   { href: "/team", label: "Team" },
   { href: "/investment-approach", label: "Investment Approach" },
-  { href: "/funds#sectors", label: "Target Sectors" },
 ];
 
 export default function RelatedLinks() {
