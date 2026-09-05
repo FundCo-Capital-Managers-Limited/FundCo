@@ -20,9 +20,11 @@ const SECTORS = [
 ];
 
 const SDGS = [
-  { number: "8", title: "Decent Work and Economic Growth" },
-  { number: "14", title: "Climate Action" },
-  { number: "11", title: "Sustainable Cities and Communities" },
+  { number: "7", title: "Affordable and Clean Energy", icon: "/images/sdg/sdg-7.png" },
+  { number: "8", title: "Decent Work and Economic Growth", icon: "/images/sdg/sdg-8.svg" },
+  { number: "11", title: "Sustainable Cities and Communities", icon: "/images/sdg/sdg-11.png" },
+  { number: "13", title: "Climate Action", icon: "/images/sdg/sdg-13.png" },
+  { number: "1", title: "No Poverty", icon: "/images/sdg/sdg-1.png" },
 ];
 
 export default function Funds() {
@@ -98,15 +100,19 @@ export default function Funds() {
           infrastructure, technology, and development finance to drive
           innovation beyond conventional asset management.
         </p>
-        <div className="grid gap-4 sm:gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 sm:gap-6 sm:grid-cols-5">
           {SDGS.map((sdg) => (
             <div
               key={sdg.number}
-              className="rounded-2xl border border-border bg-surface p-6 sm:p-8 text-center shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              className="rounded-2xl border border-border bg-surface p-4 sm:p-5 text-center shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="text-3xl sm:text-4xl font-bold text-brand">
-                {sdg.number}
-              </div>
+              <Image
+                src={sdg.icon}
+                alt={`SDG ${sdg.number}: ${sdg.title}`}
+                width={110}
+                height={110}
+                className="mx-auto h-16 w-16 sm:h-20 sm:w-20 rounded-lg object-contain"
+              />
               <div className="mt-3 text-xs font-semibold uppercase tracking-wide text-text-secondary">
                 {sdg.title}
               </div>
@@ -121,22 +127,27 @@ export default function Funds() {
             Target Funds
           </h2>
           <p className="text-text-secondary mb-10">
-            In the initial phase, FundCo will manage three funds which are
-            already in the implementation phase and are progressing along in
-            the process of SEC registration.
+            FundCo manages two live, SEC-regulated funds — the Clean Energy
+            Local Currency Fund and the Housing Solution Fund — alongside a
+            broader agriculture-sector portfolio focus built around our
+            operating platform, Agronomie.
           </p>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             <Link
               href="/clean-energy"
               className="rounded-2xl border border-border bg-white p-6 sm:p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-brand/40 transition-all duration-300"
             >
+              <span className="mb-3 inline-block rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-emerald-700">
+                Live &amp; SEC Regulated
+              </span>
               <h3 className="text-lg font-semibold text-brand mb-3">
-                Clean Energy
+                Clean Energy Local Currency Fund (CeF)
               </h3>
               <p className="text-sm text-text-secondary leading-relaxed">
-                Nigeria is now the country with the largest number of people
-                without energy access in the world – over 85m or 43%&hellip;
+                Climate Bonds Certified and rated BBB by GCR and Agusto &amp;
+                Co., CeF mobilises naira institutional capital into
+                mini-grids, solar, clean cooking and e-mobility&hellip;
               </p>
               <span className="mt-3 inline-block text-sm font-semibold text-brand">
                 Learn more &rarr;
@@ -147,35 +158,42 @@ export default function Funds() {
               href="/affordable-housing"
               className="rounded-2xl border border-border bg-white p-6 sm:p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-brand/40 transition-all duration-300"
             >
-              <h3 className="text-lg font-semibold text-brand mb-3">
-                Affordable Housing
-              </h3>
-              <p className="text-sm text-text-secondary leading-relaxed">
-                Nigeria&rsquo;s population is forecast to grow at 2.6% per
-                annum. As the population growth rate increases&hellip;
-              </p>
-              <span className="mt-3 inline-block text-sm font-semibold text-brand">
-                Learn more &rarr;
+              <span className="mb-3 inline-block rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-emerald-700">
+                Live &amp; SEC Registered
               </span>
-            </Link>
-
-            <Link
-              href="/agriculture"
-              className="rounded-2xl border border-border bg-white p-6 sm:p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-brand/40 transition-all duration-300"
-            >
               <h3 className="text-lg font-semibold text-brand mb-3">
-                Agriculture
+                Housing Solution Fund (HSF)
               </h3>
               <p className="text-sm text-text-secondary leading-relaxed">
-                Nigeria&rsquo;s agricultural sector remains one of the
-                largest contributors to employment and economic
-                activity&hellip;
+                Nigeria&rsquo;s first privately managed housing-focused REIT,
+                financing long-dated affordable home loans and EDGE-certified
+                housing&hellip;
               </p>
               <span className="mt-3 inline-block text-sm font-semibold text-brand">
                 Learn more &rarr;
               </span>
             </Link>
           </div>
+
+          <Link
+            href="/agriculture"
+            className="mt-6 block rounded-2xl border border-border bg-white p-6 sm:p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-brand/40 transition-all duration-300"
+          >
+            <span className="mb-3 inline-block rounded-full bg-brand/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-brand">
+              Sector Focus
+            </span>
+            <h3 className="text-lg font-semibold text-brand mb-3">
+              Agriculture
+            </h3>
+            <p className="text-sm text-text-secondary leading-relaxed">
+              A broader portfolio focus rather than a registered fund vehicle,
+              built around Agronomie, our agricultural production and
+              value-chain financing platform&hellip;
+            </p>
+            <span className="mt-3 inline-block text-sm font-semibold text-brand">
+              Learn more &rarr;
+            </span>
+          </Link>
 
           <p className="mt-8 text-sm text-text-secondary leading-relaxed">
             Our strategic aim is to manage sector focused funds in select

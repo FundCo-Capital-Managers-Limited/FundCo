@@ -4,7 +4,7 @@ import SectorPage from "@/components/SectorPage";
 export const metadata: Metadata = {
   title: "Affordable Housing",
   description:
-    "FundCo is developing a Housing Solution Fund to unlock blended finance for sustainable, affordable housing delivery in Nigeria, where the housing unit deficit stands at an estimated 20 million.",
+    "The Housing Solution Fund (HSF) is Nigeria's first privately managed housing-focused REIT, a live SEC-registered vehicle managed by FundCo, financing affordable, EDGE-certified housing.",
 };
 
 export default function AffordableHousing() {
@@ -13,6 +13,7 @@ export default function AffordableHousing() {
       data={{
         title: "Affordable Housing",
         heroImage: "/uploads/2021/08/housing.jpg",
+        statusBadge: "SEC-Registered REIT • SEC/REIT/HSF/2021",
         marketGapParagraphs: [
           "Nigeria's population is forecast to grow at 2.6% per annum. As the population growth rate increases, house prices appreciates, which puts a strain on housing demand and the need for affordable housing. Thus, widening the supply gap, as new supply is needed to house the growth of the population. The share of urban population as a percentage of the total population in Nigeria is 50.34%.",
         ],
@@ -27,11 +28,20 @@ export default function AffordableHousing() {
           "The housing sector has a significant impact on emissions, particularly from residential energy usage throughout the lifetime of the buildings, and the carbon intensity of the materials used in construction. The lack of long-term housing finance, difficulties with property registration, titling and the cost and time of foreclosing were listed as the major bottleneck for the development of the housing market.",
           "According to a PwC Report, Nigeria's housing market is estimated to worth about NGN5.9 trillion and is projected to grow by 22% to reach N7.2 trillion by 2024. Nigeria has over 41 million households with 75% of them still depending on rented apartments for housing. Nigeria would need to provide about 4.9 million standard housing units yearly to address the housing deficit and housing needs over the next 10 years.",
         ],
-        fundHeading: "Housing Solution Fund",
+        fundHeading: "Housing Solution Fund (HSF)",
         fundParagraphs: [
-          "In collaboration with our development partners we are developing a housing solution fund with a mission to unlock the potential for affordable and accessible finance for sustainable housing delivery using blended finance to catalyze integrated housing solution to stimulate demand and scale housing supply.",
-          "The fund will be established as a real estate investment trust (REIT) and will stimulate housing demand by providing affordable long-dated blended mortgage loans to stimulate housing demand and scale housing supply.",
-          "Mobilising long term capital that will provide homebuyers access to affordable housing finance whilst enabling affordable housing developers access sustainable construction financing from the debt capital markets will be transformative.",
+          "The Housing Solution Fund (HSF) is Nigeria's first privately managed housing-focused Real Estate Investment Trust (REIT), registered with the Securities & Exchange Commission (SEC Registration: SEC/REIT/HSF/2021). FundCo Capital Managers Limited is HSF's SEC-authorised fund manager.",
+          "HSF unlocks affordable and accessible finance for sustainable housing delivery by combining long-dated affordable home loans, with tenures of up to 25 years, with developer offtake commitments. Capital raised is deployed into EDGE-certified (green-building) housing developments, aligning affordability with environmental performance.",
+          "By mobilising long-term local capital, HSF gives homebuyers access to affordable mortgage finance while enabling developers to access sustainable construction financing from the debt capital markets — closing the gap between housing demand and housing supply. HSF completed a Series 1 issuance under its NGN100 billion debt programme in December 2023, and continues to raise capital toward its target of enabling over 10,000 new homes, at competitive, risk-adjusted returns for investors.",
+        ],
+        ratings: [
+          { label: "SEC-Registered REIT", sublabel: "SEC/REIT/HSF/2021" },
+          { label: "EDGE-Certified Housing", sublabel: "Green building standard" },
+        ],
+        impactHeading: "HSF Track Record",
+        impactStats: [
+          { value: "10,000+", label: "New homes targeted" },
+          { value: "₦2.12B", label: "Total capital raised to date" },
         ],
         websiteUrl: "https://housingsolutionfund.ng",
         related: {

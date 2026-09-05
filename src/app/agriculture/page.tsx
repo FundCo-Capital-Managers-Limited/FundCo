@@ -4,7 +4,7 @@ import SectorPage from "@/components/SectorPage";
 export const metadata: Metadata = {
   title: "Agriculture",
   description:
-    "FundCo supports sustainable financing, climate-smart infrastructure, and technology-enabled farming solutions to improve productivity, food security, and rural economic development across Nigeria's agricultural sector.",
+    "FundCo supports Agronomie, its agricultural production and value-chain financing platform, alongside sustainable financing and technology-enabled farming solutions across Nigeria's agricultural sector.",
 };
 
 export default function Agriculture() {
@@ -31,10 +31,23 @@ export default function Agriculture() {
         ],
         fundHeading: "Our Approach",
         fundParagraphs: [
-          "In collaboration with strategic development and ecosystem partners, we are supporting initiatives focused on transforming Nigeria's agricultural sector through sustainable financing, climate-smart infrastructure, and technology-enabled farming solutions designed to improve productivity, food security, and rural economic development.",
+          "Agriculture is a broader sector focus for FundCo rather than a dedicated registered fund vehicle. Our operating platform in this sector is Agronomie, which drives agricultural production and value-chain financing — supporting farmers, cooperatives, and agribusiness operators with the productive-use assets and working capital needed to scale output.",
+          "In collaboration with strategic development and ecosystem partners, we support initiatives focused on transforming Nigeria's agricultural sector through sustainable financing, climate-smart infrastructure, and technology-enabled farming solutions designed to improve productivity, food security, and rural economic development.",
           "By facilitating access to productive-use assets, agricultural infrastructure, clean-energy-powered solutions, and innovative financing models, these initiatives aim to strengthen agricultural value chains while improving operational efficiency and market access for farmers, cooperatives, and agribusiness operators across underserved communities.",
-          "A sustainable agriculture investment ecosystem has the potential to catalyze greater private sector participation within the agricultural sector by attracting institutional capital into scalable agribusiness projects, agro-processing infrastructure, rural supply chain development, and climate-resilient farming systems.",
           "Our objective is to support long-term agricultural transformation by mobilizing blended finance and strategic investments that promote inclusive economic growth, environmental sustainability, improved livelihoods, and long-term resilience across Nigeria's agricultural ecosystem.",
+        ],
+        portfolioHeading: "Operating Platform",
+        portfolioIntro:
+          "Agronomie is FundCo's agriculture-sector operating platform, focused on production and value-chain financing.",
+        portfolioCompanies: [
+          {
+            name: "Agronomie",
+            logo: "/images/portfolio/agronomie.png",
+            sector: "Agriculture",
+            blurb:
+              "Agricultural production and value-chain financing platform supporting farmers and agribusinesses across Nigeria's agricultural ecosystem.",
+            websiteUrl: "https://agronomie.ng",
+          },
         ],
         websiteUrl: "https://agronomie.ng",
         related: {
